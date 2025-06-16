@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORUAJOY ENTREPRISE</title>
+  <link rel="stylesheet" href="stylesheet.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="/Images/logorbg.png"/></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">SERVICES</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars menu-bar" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="text-box">
+  <h1>Saving Made Easy</h1>
+  <p>Our top most priority is to help you save for the future;let us help
+    you plan for that business, get that phone, laptop or pay your bills
+  </p>
+  <a href="" class="SignUp-btn" >SignUp</a>
+      
+</div>
+  </section>
+
+<!-- ------------SERVICES------- -->
+
+<section class="services">
+<h1>Services We Offer</h1>
+<p>You can choose from our wide variety of services</p>
+
+<div class="row">
+  <div class="service-row">
+    <h3>FixedSave</h3>
+    <p>With FixedSave, you can lock away funds for a fixed period . 
+      Whether you're saving for a project, emergency fund, or future goals, 
+      FixedSave helps you build discipline and grow your money securely. 
+      Choose your preferred duration, sit back, and 
+      watch your savings grow — no distractions, no early withdrawals.</p>
+  </div>
+  <div class="service-row">
+    <h3>FlexiFund</h3>
+    <p>FlexiFund is a flexible savings plan that allows individuals or groups to contribute a fixed amount of money monthly for a set period. 
+      Whether you're planning a project, preparing for future expenses, or joining a group contribution, 
+      FlexiFund helps you stay disciplined while building towards a lump-sum payout at the end of the cycle. 
+      Simple, secure, and goal-driven — your financial growth starts here.
+    </p>
+  </div>
+  <div class="service-row">
+    <h3>Loan</h3>
+    <p>we provide accessible and flexible loan solutions to help you meet your financial goals. 
+      Whether it’s for business expansion, personal needs, emergencies, or planned projects, 
+      our loan services are designed to offer fast approval, minimal documentation, and convenient repayment terms. 
+      Empower your future with the support you need — when you need it most.</p>
+  </div>
+  <div class="service-row">
+    <h3>Bills Payment</h3>
+    <p>Skip the queues and delays.you can pay all your essential bills in one place — from electricity and internet to cable TV and more. 
+      Our secure and seamless platform makes it easy to stay on top of your payments, anytime and anywhere. 
+      Reliable service, instant confirmation, and peace of mind.</p>
+  </div>
+</div>
+</section>
+
+<!-- ABOUT PAGE -->
+<section class="about">
+  <h1>About Oruajoy Entreprise</h1>
+  <div class="ceo-section">
+  <img src="path-to-your-image.jpg" alt="CEO" class="ceo-image" />
+  <div class="ceo-description">
+    <h2>Meet Our CEO</h2>
+    <p>
+      Mr. John Doe is the visionary behind Oruajoy Entreprise. With years of experience in finance and a passion for empowering people, he leads the company with integrity, innovation, and a deep commitment to helping individuals grow their wealth.
+    </p>
+  </div>
+</div>
+
+
+</section>
+<!-- --------javaScript for toogle Menus------------ -->
+  <script>
+    var navlinks = document.getElementById("navlinks")
+
+    function showMenu(){
+      navlinks.style.right = "0"
+    }
+    function hideMenu(){
+      navlinks.style.right = "-200px"
+    }
+  </script>
+</body>
+</html>
