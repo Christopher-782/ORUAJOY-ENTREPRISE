@@ -172,7 +172,7 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   }
 }
 
-/* ABOUT PAGE */
+/* ceo page */
 
 .ceo-section {
   display: flex;
@@ -183,6 +183,7 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 40px auto;
   max-width: 900px;
+  justify-items: center;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
