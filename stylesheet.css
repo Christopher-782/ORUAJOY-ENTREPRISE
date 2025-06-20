@@ -122,10 +122,15 @@ nav .fa{
 
 /* -------Services------ */
 .services{
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
+   background: linear-gradient(rgba(255, 255, 255, 0.7)),
+              url('/Images/BCKIMG1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 h1{
   font-size: 36px;
@@ -174,15 +179,20 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
 /* ceo page */
 
+.Management h1{
+  text-align: center;
+  padding-left: 50px;
+}
+
+
 .ceo-section {
   display: flex;
   align-items: center;
   gap: 20px;
-  background-color: #f5f5f5;
   padding: 30px;
   border-radius: 10px;
   margin: 40px auto;
-  max-width: 900px;
+  max-width: 100%;
   justify-items: center;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
@@ -226,10 +236,108 @@ h1{
   width: 100%;
   text-align: center;
   padding: 30px 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  height: 150px;
 }
 
 .footer h4{
   margin-bottom: 25px;
   margin-top: 20px;
-  font-weight: 600;
+  font-weight: 800px;
+
 }
+
+.icons {
+    display: flex;
+    gap: 15px;
+    padding-left: 48%;
+    color: white;
+  }
+
+  .icons a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .icons a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .icons a:hover::after{
+    width: 100%;
+  }
+
+  .icons p{
+    color: white;
+  }
+
+  .ContactUS { 
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+.contactUs h2{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  color: purple;
+}
+.form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+}
+
+.form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+    .contactUs {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center;
+  position: relative;  
+    }
